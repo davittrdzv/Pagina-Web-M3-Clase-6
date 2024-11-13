@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Box</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Leave us your comments!</h1>
+    <div id="leave-comment">
+        <form id="input-form" action="">
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="first-name-input">
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="last-name-input">
+            <label for="commentoutput">Comment:</label>
+            <input type="text" name="commentoutput" id="comment-output"><br>
+            <button type="button" id="submit-button">Post comment</button>
+        </form>
+    </div>
+    <h2>Posted comments:</h2>
+    <div id="new-comments-section" class="new-comments-section">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
